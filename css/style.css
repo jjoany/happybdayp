@@ -87,6 +87,29 @@
 }
 
 
+@media (max-width: 768px) {
+
+    .game-board {
+        height: 300px;
+    }
+
+    .pam {
+        width: 100px;
+    }
+
+    .pipe {
+        width: 60px;
+    }
+
+    .mensagem {
+        font-size: 10px;
+    }
+
+    .restart {
+        font-size: 12px;
+        padding: 10px 20px;
+    }
+}
 
 
 @keyframes pipe-animation {

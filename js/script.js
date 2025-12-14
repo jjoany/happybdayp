@@ -26,19 +26,17 @@ const loop = setInterval(() => {
         pam.src = './imagens/gameover.png';
         pam.style.width = '150px';
         pam.style.marginLeft = '50px';
-    document.querySelector('.restart').style.display = 'block';
 
-    
-            
-    clearInterval(loop);
+        document.querySelector('.restart').style.display = 'block';
 
+        clearInterval(loop);
     }
 
 }, 10);
 
 document.addEventListener('keydown', jump);
+document.addEventListener('touchstart', jump);
 
 document.querySelector('.restart').addEventListener('click', () => {
     window.location.reload();
 });
-
